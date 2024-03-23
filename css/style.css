@@ -1,0 +1,54 @@
+.header-container {
+  /* border: 1px solid; */
+  display: flex;
+  border-color: black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px 0 24px;
+  background-color: aquamarine;
+}
+
+hr {
+  margin: 0px;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-image: url(../assets/logo.png);
+  background-size: cover;
+}
+
+.nav-container > button {
+  height: 25px;
+}
+
+.section-container {
+  padding: 48px 0 24px 0;
+}
+
+.section-container > header {
+  text-align: center;
+}
+
+.section-content-container {
+  display: flex;
+}
+
+.name-input {
+  height: 24px;
+  width: 50%;
+  border: 1px solid aqua;
+  border-radius: 16px;
+}
+
+button {
+  height: 24px;
+  width: 64px;
+  color: white;
+  background-color: black;
+  border: 0px;
+  border-radius: 8px;
+}
