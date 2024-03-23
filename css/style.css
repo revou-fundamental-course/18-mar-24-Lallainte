@@ -1,3 +1,4 @@
+/* navbar start */
 .header-container {
   /* border: 1px solid; */
   display: flex;
@@ -7,9 +8,13 @@
   padding: 0 24px 0 24px;
   background-color: aquamarine;
 }
-
 hr {
   margin: 0px;
+}
+a {
+  border: 2px solid;
+  border-radius: 18px;
+  padding: 0 8px 0 8px;
 }
 
 .logo-icon {
@@ -20,11 +25,32 @@ hr {
   background-image: url(../assets/logo.png);
   background-size: cover;
 }
-
 .nav-container > button {
   height: 25px;
 }
+/* navbar end */
 
+/* konten start */
+
+/* slide banner start */
+.slide-banner {
+  align-content: center;
+  justify-content: center;
+  height: 200px;
+  width: 60%;
+  background-color: rgba(247, 47, 47, 0.973);
+}
+/* slide banner end */
+/* konten form start */
+.konten-form {
+  align-content: center;
+  justify-content: center;
+  height: 200px;
+  width: 40%;
+  background-color: aliceblue;
+  /* margin: 0 0 0 200px; */
+}
+/* konten form end */
 .section-container {
   padding: 48px 0 24px 0;
 }
@@ -52,3 +78,4 @@ button {
   border: 0px;
   border-radius: 8px;
 }
+/* konten end */
