@@ -36,20 +36,57 @@ a {
 .slide-banner {
   align-content: center;
   justify-content: center;
-  height: 200px;
+  height: 500px;
   width: 60%;
   background-color: rgba(247, 47, 47, 0.973);
 }
+
+/* header start*/
+.bg-slide {
+  max-width: 400px;
+  max-height: 450px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 0 300px;
+}
+/* header end*/
 /* slide banner end */
 /* konten form start */
 .konten-form {
-  align-content: center;
-  justify-content: center;
-  height: 200px;
+  /* align-content: center; */
+  /* justify-content: center; */
+  height: 600px;
   width: 40%;
   background-color: aliceblue;
-  /* margin: 0 0 0 200px; */
+  margin: 0 100px 0 70px;
+  /* padding: 40px 0 0 120px; */
+  border: 1px solid;
+  /* border-radius: 18px; */
 }
+
+/* konten form kontak us dll start */
+.konten-form > header > h2 {
+  padding: 20px 40px 0 120px;
+}
+.konten-form > header > p {
+  padding: 0 40px 50px 120px;
+  opacity: 0.5;
+}
+
+.konten-form > section > .nama {
+  padding: 0 40px 0 120px;
+}
+
+.name-input {
+  /* height: 24px; */
+  /* width: 50%; */
+  border: 1px aqua;
+  border-radius: 16px;
+  padding: 0 40px 0 120px;
+  margin-left: 80px;
+}
+/* konten form kontak us dll end */
 /* konten form end */
 .section-container {
   padding: 48px 0 24px 0;
@@ -57,6 +94,10 @@ a {
 
 .section-container > header {
   text-align: center;
+  font-size: x-large;
+}
+.section-container > header > p {
+  opacity: 0.5;
 }
 
 .section-content-container {
@@ -64,8 +105,8 @@ a {
 }
 
 .name-input {
-  height: 24px;
-  width: 50%;
+  /* height: 24px; */
+  /* width: 50%; */
   border: 1px solid aqua;
   border-radius: 16px;
 }
