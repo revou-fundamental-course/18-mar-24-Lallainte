@@ -83,8 +83,13 @@ a {
   /* width: 50%; */
   border: 1px aqua;
   border-radius: 16px;
+  padding: 0 100px 0 0px;
+  margin: 4px 0 0 120px;
+  height: 40px;
+}
+
+.konten-form > section > .email {
   padding: 0 40px 0 120px;
-  margin-left: 80px;
 }
 /* konten form kontak us dll end */
 /* konten form end */
