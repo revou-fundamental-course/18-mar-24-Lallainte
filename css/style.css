@@ -8,6 +8,10 @@
   padding: 0 24px 0 24px;
   background-color: aquamarine;
 }
+
+.header-container > section > a {
+  padding: 3px 24px 3px 24px;
+}
 hr {
   margin: 0px;
 }
@@ -33,44 +37,75 @@ a {
 /* konten start */
 
 /* slide banner start */
+.section-content-container {
+  display: flex;
+}
 .slide-banner {
   align-content: center;
   justify-content: center;
-  height: 500px;
+  /* height: 700px; */
   width: 60%;
   background-color: rgba(247, 47, 47, 0.973);
+  margin: 0 0 0 100px;
 }
 
 /* header start*/
 .bg-slide {
-  max-width: 400px;
-  max-height: 450px;
+  width: 625px;
+  height: 400px;
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
-  padding: 0 0 0 300px;
+  border: 1px solid;
+  border-radius: 18px;
+  /* margin: 0 0 40px 0; */
+}
+
+/* footer start*/
+.footer-slide {
+  display: flex;
+  border-color: black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px 0 24px;
+  background-color: aquamarine;
+}
+.footer-img {
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+/* footer end*/
+
+.paragraf {
+  /* border: 5px solid; */
+  padding: 0 0 0 100px;
+  margin: 0 0 100px 0;
 }
 /* header end*/
 /* slide banner end */
 /* konten form start */
 .konten-form {
-  /* align-content: center; */
-  /* justify-content: center; */
-  height: 600px;
+  height: 550px;
   width: 40%;
-  background-color: aliceblue;
-  margin: 0 100px 0 70px;
-  /* padding: 40px 0 0 120px; */
+  background-color: rgb(80, 202, 111);
+  margin: 0 100px 0 90px;
   border: 1px solid;
-  /* border-radius: 18px; */
+  background-image: url(../assets/airplane-travel.gif);
+  background-size: cover;
+  border-radius: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: color;
 }
 
 /* konten form kontak us dll start */
 .konten-form > header > h2 {
-  padding: 20px 40px 0 120px;
+  padding: 20px 40px 0 100px;
 }
 .konten-form > header > p {
-  padding: 0 40px 50px 120px;
+  padding: 0 40px 50px 100px;
   opacity: 0.5;
 }
 
@@ -81,15 +116,46 @@ a {
 .name-input {
   /* height: 24px; */
   /* width: 50%; */
-  border: 1px aqua;
+  border: 1px solid aqua;
   border-radius: 16px;
   padding: 0 100px 0 0px;
-  margin: 4px 0 0 120px;
+  margin: 4px 0 24px 100px;
   height: 40px;
 }
 
 .konten-form > section > .email {
   padding: 0 40px 0 120px;
+}
+
+.email-input {
+  border: 1px solid aqua;
+  border-radius: 16px;
+  padding: 0 100px 0 0;
+  margin: 4px 0 24px 100px;
+  height: 40px;
+}
+
+.konten-form > section > .option {
+  padding: 0 40px 0 100px;
+}
+
+.opt-group {
+  border: 1px solid aqua;
+  border-radius: 16px;
+  padding: 0 170px 0 0;
+  margin: 4px 0 24px 100px;
+  height: 40px;
+}
+
+.button-send {
+  /* border: 1px solid aqua; */
+  border-radius: 16px;
+  padding: 0 270px 0 0;
+  margin: 4px 0 24px 100px;
+  height: 40px;
+}
+.button-send > p {
+  padding: 0 0 0 120px;
 }
 /* konten form kontak us dll end */
 /* konten form end */
@@ -103,17 +169,6 @@ a {
 }
 .section-container > header > p {
   opacity: 0.5;
-}
-
-.section-content-container {
-  display: flex;
-}
-
-.name-input {
-  /* height: 24px; */
-  /* width: 50%; */
-  border: 1px solid aqua;
-  border-radius: 16px;
 }
 
 button {
