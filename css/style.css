@@ -100,14 +100,17 @@ a {
 /* konten form kontak us dll start */
 .konten-form > header > h2 {
   padding: 20px 40px 0 100px;
+  color: aquamarine;
 }
 .konten-form > header > p {
   padding: 0 40px 50px 100px;
   opacity: 0.5;
+  color: aquamarine;
 }
 
 .konten-form > section > .nama {
   padding: 0 40px 0 120px;
+  color: aquamarine;
 }
 
 .name-input {
@@ -120,6 +123,7 @@ a {
 
 .konten-form > section > .email {
   padding: 0 40px 0 120px;
+  color: aquamarine;
 }
 
 .email-input {
@@ -132,6 +136,7 @@ a {
 
 .konten-form > section > .option {
   padding: 0 40px 0 100px;
+  color: aquamarine;
 }
 
 .opt-group {
@@ -147,6 +152,7 @@ a {
   padding: 0 270px 0 0;
   margin: 4px 0 24px 100px;
   height: 40px;
+  color: aquamarine;
 }
 .button-send > p {
   padding: 0 0 0 120px;
@@ -173,7 +179,7 @@ a {
   height: 50px;
   border: 1px solid;
   border-radius: 50%;
-  margin: 0 0 0 100px;
+  margin: 0 0 24px 100px;
   background-image: url(../assets/numberoneinacircle_80030.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -183,7 +189,7 @@ a {
   height: 50px;
   border: 1px solid;
   border-radius: 50%;
-  margin: 0 0 0 100px;
+  margin: 0 0 24px 100px;
   background-image: url(../assets/numbertwoinacircle_80299.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,14 +199,14 @@ a {
   height: 50px;
   border: 1px solid;
   border-radius: 50%;
-  margin: 0 0 0 100px;
+  margin: 0 0 24px 100px;
   background-image: url(../assets/numberthreeinacircle_80289.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bottom-slide > section > p {
-  padding: 0 0 0 30px;
+  padding: 0 0 24px 30px;
 }
 /* bottom konten end */
 .section-container {
