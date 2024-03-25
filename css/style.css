@@ -1,12 +1,10 @@
 /* navbar start */
 .header-container {
-  /* border: 1px solid; */
   display: flex;
   border-color: black;
   align-items: center;
   justify-content: space-between;
   padding: 0 24px 0 24px;
-  background-color: aquamarine;
 }
 
 .header-container > section > a {
@@ -43,9 +41,7 @@ a {
 .slide-banner {
   align-content: center;
   justify-content: center;
-  /* height: 700px; */
   width: 60%;
-  background-color: rgba(247, 47, 47, 0.973);
   margin: 0 0 0 100px;
 }
 
@@ -58,7 +54,6 @@ a {
   align-items: center;
   border: 1px solid;
   border-radius: 18px;
-  /* margin: 0 0 40px 0; */
 }
 
 /* footer start*/
@@ -66,22 +61,24 @@ a {
   display: flex;
   border-color: black;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 24px 0 24px;
-  background-color: aquamarine;
+}
+.footer-slide > section > p {
+  padding: 0 0 0 30px;
 }
 .footer-img {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border: 1px solid;
   border-radius: 50%;
+  margin: 0 0 0 100px;
+  background-image: url(../assets/bootloader_users_person_people_6080.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* footer end*/
 
 .paragraf {
-  /* border: 5px solid; */
   padding: 0 0 0 100px;
-  margin: 0 0 100px 0;
 }
 /* header end*/
 /* slide banner end */
@@ -114,8 +111,6 @@ a {
 }
 
 .name-input {
-  /* height: 24px; */
-  /* width: 50%; */
   border: 1px solid aqua;
   border-radius: 16px;
   padding: 0 100px 0 0px;
@@ -148,7 +143,6 @@ a {
 }
 
 .button-send {
-  /* border: 1px solid aqua; */
   border-radius: 16px;
   padding: 0 270px 0 0;
   margin: 4px 0 24px 100px;
@@ -159,6 +153,56 @@ a {
 }
 /* konten form kontak us dll end */
 /* konten form end */
+/* bottom konten start */
+.footer-konten {
+  width: 50%;
+}
+.bottom-slide {
+  display: flex;
+  border-color: black;
+  align-items: center;
+}
+.bottom-paragraf {
+  padding: 0 0 0 100px;
+  font-size: small;
+  /* font-weight: unset; */
+}
+
+.bottom-img {
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 0 0 0 100px;
+  background-image: url(../assets/numberoneinacircle_80030.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottom-img2 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 0 0 0 100px;
+  background-image: url(../assets/numbertwoinacircle_80299.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottom-img3 {
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin: 0 0 0 100px;
+  background-image: url(../assets/numberthreeinacircle_80289.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom-slide > section > p {
+  padding: 0 0 0 30px;
+}
+/* bottom konten end */
 .section-container {
   padding: 48px 0 24px 0;
 }
