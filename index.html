@@ -14,7 +14,7 @@
       <section class="nav-container">
         <a href="#home">Home</a>
         <a href="#our pages">Our Pages</a>
-        <a href="#calls us">Calls Us</a>
+        <a href="#calls-us">Calls Us</a>
       </section>
     </header>
     <hr />
@@ -49,34 +49,36 @@
         </div>
         <!-- ini konten form -->
         <div class="konten-form">
-          <header>
+          <header id="calls-us">
             <h2 class="kepala">Contact Us</h2>
             <p class="kepala">
               Sales akan menghubungi anda 1x24 Jam<br />
               setelah data kami terima.
             </p>
           </header>
-          <section>
-            <label class="nama" for="username">Your Name:</label><br />
-          <input type="text" class="name-input" id="text" /><br />
-
-          <label class="email" for="email">Email Address:</label><br />
-          <input type="text" class="email-input" id="email" /><br />
-          <label class="option" for="option">What are you interested in?</label><br />
-          <select name="option" id="option" class="opt-group" >
-            <optgroup label="Domestic">
-              <option value="bali">Bali</option>
-              <option value="bandung">Bandung</option>
-              <option value="surabaya">Surabaya</option>
-            </optgroup>
-            <optgroup label="Overseas">
-              <option value="japan">Japan</option>
-              <option value="singapore">Singapore</option>
-            </optgroup></select
-          ><br />
-          <button class="button-send" type="button"><P>SEND</P></button>
-        </div>
-          </section>
+          <form name="formPendaftaran" action="daftar.php" method="post" onsubmit="return validateForm()">
+            <section class="form-grup">
+              <label class="nama" for="username">Your Name:</label><br />
+            <input type="text" name="nama" placeholder="nama lengkap" class="name-input" required maxlength="40" minlength="3" id="text" /><br />
+  
+            <label class="email" for="email">Email Address:</label><br />
+            <input type="text" name="email" placeholder="email aktif" class="email-input" id="email" /><br />
+            <label class="option" for="option">What are you interested in?</label><br />
+            <select name="jurusan" id="option" class="opt-group" >
+              <optgroup label="Domestic">
+                <option value="0">Bali</option>
+                <option value="1">Bandung</option>
+                <option value="2">Surabaya</option>
+              </optgroup>
+              <optgroup label="Overseas">
+                <option value="3">Japan</option>
+                <option value="singapore">Singapore</option>
+              </optgroup></select
+            ><br />
+            <button class="button-send" type="submit"><P>SEND</P></button>
+          </div>
+            </section>
+          </form>
 
          <!-- bottom konten  -->
       </div>
