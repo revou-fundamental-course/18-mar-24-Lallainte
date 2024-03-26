@@ -277,17 +277,20 @@ button {
   /* flex-wrap: wrap; */
   /* margin-top: 5rem; */
   justify-content: center;
+  background-color: red;
+  height: 200px;
 }
 .row2 {
   display: flex;
   /* flex-wrap: wrap; */
   /* margin-top: 5rem; */
   justify-content: center;
+  background-color: aqua;
+  height: 200px;
 }
 .menu-card-img {
-  width: 50px;
-  height: 50px;
-  border: 8px solid;
+  width: 220px;
+  height: 120px;
   border-radius: 50%;
   margin: 0 0 0 100px;
   background-image: url(../assets/bali.jpg);
@@ -295,19 +298,17 @@ button {
   background-size: cover;
 }
 .menu-card-img2 {
-  width: 50px;
-  height: 50px;
-  border: 8px solid;
+  width: 220px;
+  height: 120px;
   border-radius: 50%;
-  margin: 0 0 0 100px;
+  margin: 0 0 0 130px;
   background-image: url(../assets/japan.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .menu-card-img3 {
-  width: 50px;
-  height: 50px;
-  border: 8px solid;
+  width: 220px;
+  height: 120px;
   border-radius: 50%;
   margin: 0 0 0 100px;
   background-image: url(../assets/singapore.jpg);
@@ -315,44 +316,41 @@ button {
   background-size: cover;
 }
 .menu-card-img4 {
-  width: 50px;
-  height: 50px;
-  border: 8px solid;
+  width: 220px;
+  height: 120px;
   border-radius: 50%;
   margin: 0 0 0 100px;
-  background-image: url(../assets/);
+  background-image: url(../assets/bandung.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .menu-card-img5 {
-  width: 50px;
-  height: 50px;
-  border: 8px solid;
+  width: 220px;
+  height: 120px;
   border-radius: 50%;
   margin: 0 0 0 100px;
-  background-image: url(../assets/japan.jpg);
+  background-image: url(../assets/surabaya.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .menu-card-img6 {
-  width: 50px;
-  height: 50px;
-  border: 8px solid;
+  width: 220px;
+  height: 120px;
   border-radius: 50%;
   margin: 0 0 0 100px;
-  background-image: url(../assets/japan.jpg);
+  background-image: url(../assets/vacation.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .menu-display {
   display: flex;
-  border-color: rgb(240, 234, 234);
+  /* border-color: rgb(240, 234, 234); */
   align-items: center;
 }
 .menu-display > div > p {
   padding: 0 0 0 30px;
   margin: 0;
-  color: rgb(253, 253, 253);
+  /* color: rgb(253, 253, 253); */
 }
 
 /* our package div end */
