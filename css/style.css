@@ -354,4 +354,17 @@ button {
 }
 
 /* our package div end */
+/* slogan konten start */
+.slogan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.slogan > h2 {
+  color: white;
+}
+.slogan > p {
+  color: white;
+}
+/* slogan konten end */
 /* konten 2 end */
