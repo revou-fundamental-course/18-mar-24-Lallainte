@@ -40,12 +40,13 @@ a {
 }
 
 .logo-icon {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border: 1px solid;
-  border-radius: 50%;
-  background-image: url(../assets/logo.png);
+  border-radius: 20%;
+  background-image: url(../assets/lallainte-agency.jpeg);
   background-size: cover;
+  padding: 0 40px 0px 0;
 }
 /* navbar end */
 
@@ -82,7 +83,7 @@ a {
 .footer-slide > section > p {
   padding: 0 0 0 30px;
   margin: 0;
-  color: rgb(253, 253, 253);
+  color: rgb(8, 248, 8);
 }
 .footer-img {
   width: 50px;
@@ -98,7 +99,7 @@ a {
 
 .paragraf {
   padding: 0 0 0 100px;
-  color: rgb(253, 253, 253);
+  color: rgb(8, 248, 8);
 }
 /* header end*/
 /* slide banner end */
@@ -192,7 +193,7 @@ a {
   padding: 0 0 0 100px;
   font-size: small;
   /* font-weight: unset; */
-  color: rgb(253, 253, 253);
+  color: rgb(0, 0, 0);
 }
 
 .bottom-img {
@@ -231,7 +232,7 @@ a {
 
 .bottom-slide > section > p {
   padding: 0 0 0px 30px;
-  color: rgb(253, 253, 253);
+  color: rgb(0, 0, 0);
 }
 /* bottom konten end */
 .section-container {
@@ -246,6 +247,7 @@ a {
 .section-container > header > p {
   opacity: 0.5;
   color: rgb(8, 248, 8);
+  font-size: xx-large;
 }
 
 button {
@@ -277,7 +279,6 @@ button {
   /* flex-wrap: wrap; */
   /* margin-top: 5rem; */
   justify-content: center;
-  background-color: red;
   height: 200px;
 }
 .row2 {
@@ -285,7 +286,6 @@ button {
   /* flex-wrap: wrap; */
   /* margin-top: 5rem; */
   justify-content: center;
-  background-color: aqua;
   height: 200px;
 }
 .menu-card-img {
@@ -350,7 +350,7 @@ button {
 .menu-display > div > p {
   padding: 0 0 0 30px;
   margin: 0;
-  /* color: rgb(253, 253, 253); */
+  color: rgb(253, 253, 253);
 }
 
 /* our package div end */
@@ -361,10 +361,71 @@ button {
   align-items: center;
 }
 .slogan > h2 {
-  color: white;
+  color: rgb(125, 243, 204);
+  font-size: xx-large;
+}
+.span {
+  color: rgb(8, 248, 8);
 }
 .slogan > p {
   color: white;
+  font-size: x-large;
+}
+.call {
+  padding: 8px 24px 8px 24px;
+  color: rgb(125, 243, 204);
 }
 /* slogan konten end */
+
+/* footer start */
+.footer-head {
+  display: grid;
+  border-color: black;
+  align-items: center;
+  justify-content: center;
+}
+.logo-footer {
+  width: 250px;
+  height: 250px;
+  border: 1px solid;
+  border-radius: 12px;
+  background-image: url(../assets/lallainte-agency.jpeg);
+  background-size: cover;
+  margin: 24px 0 24px 0;
+  padding: 0 100px 0 0;
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+.section-footer {
+  display: flex;
+  border-color: black;
+  align-items: center;
+  justify-content: center;
+}
+.section-footer > .p1 {
+  margin: 0 0px 0 24px;
+  color: white;
+}
+.section-footer > .p2 {
+  margin: 0 0px 0 63px;
+  color: white;
+}
+.p3 {
+  margin: 0 10px 0 0px;
+  color: white;
+}
+.p4 {
+  margin: 0 0 0 40px;
+  color: white;
+}
+.p5 {
+  margin: 0 0 0 80px;
+  color: white;
+}
+.p6 {
+  margin: 0 0 0 20px;
+  color: white;
+}
+
+/* footer end */
 /* konten 2 end */
