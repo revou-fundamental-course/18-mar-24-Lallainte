@@ -81,6 +81,7 @@ a {
 }
 .footer-slide > section > p {
   padding: 0 0 0 30px;
+  margin: 0;
   color: rgb(253, 253, 253);
 }
 .footer-img {
@@ -229,7 +230,7 @@ a {
 }
 
 .bottom-slide > section > p {
-  padding: 0 0 24px 30px;
+  padding: 0 0 0px 30px;
   color: rgb(253, 253, 253);
 }
 /* bottom konten end */
@@ -256,3 +257,103 @@ button {
   border-radius: 8px;
 }
 /* konten end */
+
+/* konten 2 start */
+.our-package {
+  padding: 48px 0 24px 0;
+  /* border: 1px solid; */
+}
+
+.our-package > header {
+  text-align: center;
+  font-size: x-large;
+  color: rgb(125, 243, 204);
+}
+
+/* our package div start */
+
+.row1 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* margin-top: 5rem; */
+  justify-content: center;
+}
+.row2 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* margin-top: 5rem; */
+  justify-content: center;
+}
+.menu-card-img {
+  width: 50px;
+  height: 50px;
+  border: 8px solid;
+  border-radius: 50%;
+  margin: 0 0 0 100px;
+  background-image: url(../assets/bali.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-card-img2 {
+  width: 50px;
+  height: 50px;
+  border: 8px solid;
+  border-radius: 50%;
+  margin: 0 0 0 100px;
+  background-image: url(../assets/japan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-card-img3 {
+  width: 50px;
+  height: 50px;
+  border: 8px solid;
+  border-radius: 50%;
+  margin: 0 0 0 100px;
+  background-image: url(../assets/singapore.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-card-img4 {
+  width: 50px;
+  height: 50px;
+  border: 8px solid;
+  border-radius: 50%;
+  margin: 0 0 0 100px;
+  background-image: url(../assets/);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-card-img5 {
+  width: 50px;
+  height: 50px;
+  border: 8px solid;
+  border-radius: 50%;
+  margin: 0 0 0 100px;
+  background-image: url(../assets/japan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-card-img6 {
+  width: 50px;
+  height: 50px;
+  border: 8px solid;
+  border-radius: 50%;
+  margin: 0 0 0 100px;
+  background-image: url(../assets/japan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-display {
+  display: flex;
+  border-color: rgb(240, 234, 234);
+  align-items: center;
+}
+.menu-display > div > p {
+  padding: 0 0 0 30px;
+  margin: 0;
+  color: rgb(253, 253, 253);
+}
+
+/* our package div end */
+/* konten 2 end */
